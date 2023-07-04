@@ -1,0 +1,117 @@
+@charset "UTF-8"; 
+	             /*섹션1*/
+                     #section1 {width:100%; height: auto; margin:0 auto; display: flex; justify-content: center;}
+
+                     #section1 > #main {width:900px; height: 100%; background-color:#ececec9d; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+                     /*story*/
+                     #section1 > #main > #story {width:95%; height: auto; margin:10px; padding:20px; display: flex; flex-direction: column; align-items: center;}
+                     #section1 > #main > #story > h1 {font-size: 36px; font-family: 'Tilt Warp', cursive; background: linear-gradient(#ffb834, #ff501b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0 170px 0 -200px;}
+                     #section1 > #main > #story > h2 {font-size: 20px; font-family: 'Convergence', sans-serif; color: #000; margin: 10px 250px 10px -210px;}
+                     #section1 > #main > #story > #photobox {width:95%; height: auto; overflow: hidden; border-radius: 25px; margin:8px 0 20px 0;}
+                     #section1 > #main > #story > #photobox > img {width:100%; height: 100%;   transform: scale(1); transition: 0.5s; cursor: pointer;}
+                     #section1 > #main > #story > #photobox > img:hover{transform: scale(1.05); transition: 0.5s;}
+                     #section1 > #main > #story > button {padding:15px 30px; border-radius: 40px; background-color: #fff; border:3px solid #ff501b; color:#ff501b; font-size: 15px; letter-spacing: 1px; font-family: 'Convergence', sans-serif; cursor: pointer;}
+                     #section1 > #main > #story > button:hover {background-color: #ff501b; border:3px solid #ff501b; color:#fff; transition: 0.3s; }
+
+                     /*people*/
+                     .people {width:95%; height: auto; margin:50px; padding:10px; }
+                     .people > h1 {font-size: 36px; font-family: 'Tilt Warp', cursive; background: linear-gradient(#ffb834, #ff501b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin:10px 0;}
+                     .people > h2 {font-size: 20px; font-family: 'Convergence', sans-serif; color:#000; letter-spacing: 0.5px; font-weight: bold;}
+                     .people > p {font-size: 15px; font-family: 'Convergence', sans-serif; color: #3a3a3a; margin:10px 0; width:80%; line-height: 1.2; }
+                     
+                     .people > #box {width:100%; height:auto; display: flex; padding: 30px 10px 0 10px;}
+                     .people > #box > img  {width:350px; height: auto;  border-radius: 50px; margin:60px 0 0 0px; position: absolute; z-index: 5; }
+                     .people > #box > .people2 {width:350px; height: auto;  border-radius: 60px; margin:65px 0 0 0px; position: absolute; z-index: 5; }
+                     
+                     .people > #box > #textbox {background-color: #fff; border-radius: 30px; padding:35px 55px 35px 70px; height: auto; width:60%; position: relative; margin:0 0 0 315px;}
+                     .people > #box > #textbox > h1 {font-size: 18px; font-family: 'Convergence', sans-serif; color: #c02d00; font-weight: bold; margin:0 0 18px 0;}
+                     .people > #box > #textbox > h2 {font-size: 16px; font-family: 'Convergence', sans-serif; margin:0 0 20px 0; }
+                     .people > #box > #textbox > p {font-size: 15px; font-family: 'Convergence', sans-serif; color: #3a3a3a; margin:0 0 20px 0; line-height: 1.5;}
+                     .people > #box > #textbox > h3 {font-size: 16px; font-family: 'Convergence', sans-serif;  font-weight: bold; color: #ff5826; display: inline; margin:20px 0; cursor: pointer;}
+                     .people > #box > #textbox > h3:hover { color: #c02d00; transition: 0.3s;}
+                    
+                     .people > #like {width:100%; margin:5px 0 0 630px; padding:10px; cursor: pointer;}
+                     .people > #like > .comment {font-size: 15px; font-weight: bold; color:#838383;}
+                     .people > #like > .comment:hover {color:#ff5826; transition: 0.2s;}
+                     .people > #like > .heart {font-size: 15px; margin:0 8px; color:#838383;}
+                     .people > #like > .heart:hover {color:#d71d30; transition: 0.2s;}
+
+                      
+                     
+                     /*video*/
+                     #section1 > #main > #video {width:95%; height:auto; margin:10px; padding: 20px; display: flex; flex-direction: column; align-items: center; margin:20px 0;}
+                     #video > h1 {font-size: 36px; font-family: 'Tilt Warp', cursive; background: linear-gradient(#ffb834, #ff501b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+                     #video > .youtube {margin:30px 0;}
+                     #video > button {padding:15px 30px; border-radius: 40px; background-color: #fff; border:3px solid #ff501b; color:#ff501b; font-size: 13px; letter-spacing: 1px; font-family: 'Convergence', sans-serif; cursor: pointer;}
+                     #video > button:hover {background-color: #ff501b; border:3px solid #ff501b; color:#fff; transition: 0.3s;}
+
+                     /*post*/
+                     #section1 > #main > #post {width:95%; height: auto; margin:10px; padding:20px;}
+                     #post > h1 {font-size: 36px; font-family: 'Tilt Warp', cursive; background: linear-gradient(#ffb834, #ff501b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+                     #post > h2 {font-size: 15px; font-family: 'Convergence', sans-serif; color: #3a3a3a; margin:20px 0; line-height: 1.5; font-weight: bold;}
+
+                     #post > #postbox {width:100%; height: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: center;}
+
+                     #post > #postbox > #rightbox > .box {width:350px; height: auto;  margin:20px 0 50px 20px;}
+                     #post > #postbox > #rightbox > .box > .photobox {width:100%; height: auto;  overflow: hidden; border-top-left-radius: 40px;  border-bottom-right-radius: 40px; cursor: pointer;}
+                     #post > #postbox > #rightbox > .box > .photobox > img {width:100%; height: 100%; transform: scale(1); transition: 0.4s;}
+                     #post > #postbox > #rightbox > .box > .photobox > img:hover {transform: scale(1.1); transition: 0.4s;}
+                     #postbox > #rightbox > .box > h3 {font-size: 18px; color: #000; margin:5px; font-family: 'Convergence', sans-serif; font-weight: bold; margin:10px;}
+                     #postbox > #rightbox > .box > p {font-size: 14px; color: #000; margin:5px; font-family: 'Convergence', sans-serif; line-height: 1.5; margin:10px; }
+                     #postbox > #rightbox > .box > h4 {font-size: 16px; font-family: 'Convergence', sans-serif;  font-weight: bold; color: #ff5826; display: inline; cursor: pointer; margin:30px 10px;}
+                     #postbox > #rightbox > .box > h4:hover { color: #c02d00; transition: 0.3s;}
+
+                     #post > #postbox > #leftbox > .longbox {width:350px; height: auto;  margin:70px 20px 50px 0; }
+                     #post > #postbox > #leftbox > .longbox > .photobox {width:100%; height: auto; overflow: hidden; border-top-left-radius: 40px;  border-bottom-right-radius: 40px; cursor: pointer;}
+                     #post > #postbox > #leftbox > .longbox > .photobox > img {width:100%; height: 100%; transform: scale(1); transition: 0.4s;}
+                     #post > #postbox > #leftbox > .longbox > .photobox > img:hover {transform: scale(1.1); transition: 0.4s;}
+                     #postbox > #leftbox > .longbox > h3 {font-size: 18px; color: #000; margin:5px; font-family: 'Convergence', sans-serif; font-weight: bold; margin:10px;}
+                     #postbox > #leftbox > .longbox > p {font-size: 14px; color: #000; margin:5px; font-family: 'Convergence', sans-serif; line-height: 1.5; margin:10px; }
+                     #postbox > #leftbox > .longbox > h4 {font-size: 16px; font-family: 'Convergence', sans-serif;  font-weight: bold; color: #ff5826; display: inline; cursor: pointer; margin:30px 10px;}
+                     #postbox > #leftbox > .longbox > h4:hover { color: #c02d00; transition: 0.3s;}
+                    
+
+
+                     /*사이드*/
+                     #section1 > #side {width:480px; height: 100%;  display: block;  display: flex; flex-direction: column; justify-content: center; align-items: center; padding:0 30px;}
+
+                     /*서치바*/
+                     #section1 > #side > #search {width:90%; height: 60px; margin:60px auto; }
+                     #side > #search > input {width:350px; height: 60px; padding:0 30px; border-radius: 30px; border:4px solid #ff5826; position: absolute; }
+                     #side > #search > button {width:40px; height: 40px; font-size: 20px; font-weight: bold; border-radius: 20px; position: relative; z-index: 2; left: 290px; top:10px; background:linear-gradient(#ff5826, #ffc013); border:none; color: #fff; cursor: pointer;}
+                     #side > #search > button:hover {background:linear-gradient(#ffc013, #ff5826); }
+
+                     /*뉴스룸*/
+                     #section1 > #side > #newsroom {width:95%; height: auto; margin:5px; }
+                     #side > #newsroom > h1 {font-size: 18px; color: #000; margin:5px; font-family: 'Convergence', sans-serif; font-weight: bold; margin:15px; cursor: pointer; }
+                     #side > #newsroom > h1:hover {color: #c02d00; transition: 0.3s;}
+                     #side > #newsroom > .box {width:100%; height: 150px; background-color: #fff; margin:10px 0; display: flex; align-items: center; border-radius: 20px;} 
+                     #side > #newsroom > .box > img {width: auto; height: 65%; border-radius: 20px; margin:6px 8px 6px 15px; cursor: pointer; transition: 0.4s;}
+                     #side > #newsroom > .box > img:hover {opacity: 0.6; }
+                     #side > #newsroom > .box > .text > h2 {font-size: 14px; color: #000; margin:5px; font-family: 'Convergence', sans-serif; font-weight: bold; padding:6px 0; cursor: pointer;}
+                     #side > #newsroom > .box > .text > h2:hover {text-decoration: underline;}
+                     #side > #newsroom > .box > .text > p {font-size: 12px; color: #000; margin:5px; font-family: 'Convergence', sans-serif; line-height: 1.4; cursor: pointer; width:90%;}
+
+                    /*토픽*/      
+                     #section1 > #side > #topic {width:95%; height: auto; margin:40px auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; }
+                     #topic > h1 {font-size: 18px; color: #000; font-family: 'Convergence', sans-serif; font-weight: bold; margin:15px; cursor: pointer; width:100%;}
+                     #topic > p {background-image:linear-gradient(#ffbf47, #ff5900); color: #fff; margin:5px 4px; display: inline; padding:8px 13px; border-radius: 15px; font-size: 14px;  font-family: 'Convergence', sans-serif; font-weight: bold; cursor: pointer;}
+                     #topic > p:hover {background-image: none; background-color:#ffb835 ; color: #3a3a3a;}
+
+                     /*컨택*/   
+                     #section1 > #side > #contact {width:95%; height: auto; margin:40px auto; display: flex; flex-direction: column; justify-content: center;}
+                     #contact > h1 {font-size: 18px; color: #000; font-family: 'Convergence', sans-serif; font-weight: bold; margin:15px; cursor: pointer;}
+                     #contact > input {width:100%; padding:10px 15px; margin:5px; border-radius: 10px; border: 1px solid #838383; font-family: 'Convergence', sans-serif;}
+                     #contact > #selectbox {font-size: 14px; color: #000; font-family: 'Convergence', sans-serif; margin: 10px; }
+                     #contact > #selectbox > select {width:80%; padding:10px 5px; border-radius: 10px; border: 1px solid #838383; font-family: 'Convergence', sans-serif; display: block; margin:8px 0;}
+                     #contact > button {width:100%; padding:10px 0; border-radius: 10px; border: none; background-color: #c73302; font-family: 'Convergence', sans-serif; letter-spacing: 1.2px; font-size: 16px; color: #fff; cursor: pointer; transition: 0.3s;}
+                     #contact > button:hover {background-color: #ff5900; transition: 0.3s;}
+
+                      /*sns*/ 
+                      #section1 > #side > #follow {width:95%; height: auto; margin:20px auto; text-align: center; }
+                      #follow > h1 {font-size: 18px; color: #000; font-family: 'Convergence', sans-serif; font-weight: bold; margin:15px; cursor: pointer; width:100%; text-align: start;}
+                      
+                      #follow > a > .fa-brands {font-size: 20px; color: #fff; background-color: #ff7125; padding:10px; border-radius: 50%; margin:5px 10px;}
+                      #follow > a > .fa-brands:hover {opacity: 0.8;}
+                    

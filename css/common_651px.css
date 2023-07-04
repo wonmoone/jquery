@@ -1,0 +1,167 @@
+@charset "UTF-8";
+        @media (min-width:651px){
+          * {margin:0; padding:0; box-sizing: border-box;}
+          ul, li, ol {padding:0; margin: 0; list-style: none;}
+          body {background-color: #f3f4f4;}
+    
+          #top {width:100%; height:23px; display:flex; align-items: center; justify-content: center;} 
+          #top > p {font-size: 12px; letter-spacing: 1px; color: #d71d30; font-weight:600; padding: 10px 0 0 0px; cursor: pointer; }
+          #top > p:hover {text-decoration: underline;}
+        
+           /*헤더*/
+           header > .small {width:100%; height:60px; display:flex; justify-content: space-between; align-items: center; background-color:#fff; border-radius: 20px;}
+           #logo {z-index: 15;}
+           #logo >img {width: 70px; margin:0 0 0 20px; }
+           header > .small > #logo > .a {display: none;}
+           header > .b {display: none; position: relative; bottom: 17px;}
+           .b > ul {width:100%; height:auto; display:flex; flex-direction:column;  }
+           
+           header > .b > ul > li {background-color: #fff; }
+           header > .b > ul > .first {padding:20px 0 0 0;}
+           header > .b > ul > .last {border-bottom-left-radius:20px; border-bottom-right-radius:20px;  font-family: 'Convergence', sans-serif; }
+           header > .b > ul > li > a {display: block; text-decoration: none; color:#000; font-size: 17px; font-family: 'Convergence', sans-serif;  padding:25px 30px; margin:10px 0;}
+           header > .b > ul > li > a:hover { color:#d40000; background-color: #ff707042; transition: 0.4s;}
+           #iconbox { width:70px; height: 100%; display: flex; align-items: center; justify-content: flex-end; margin:5px 15px 0 0px; z-index: 15;}
+
+           #iconbox #language{display: none;}
+        
+           #icon {display: flex; justify-content: flex-end;}
+           #icon > .personicon {display: none; }
+           #icon > .bagicon {background-color: #d71d30; width:32px; height: 32px; border-radius: 17px; margin: 0 11px 3px 0px; cursor: pointer;}
+           #icon > .bagicon:hover{background-color: #86242e; transition: 0.2s;}
+           #icon > .bagicon {font-size: 18px; color: #ffffff; text-align: center; padding: 7px 0 0 0px; cursor: pointer;}
+           #icon > .listicon{font-size: 25px; width:25px; color: #d71d30; margin:3px 0px; cursor: pointer;}
+           #icon > .listicon:hover{color: #86242e; transition: 0.2s;}
+          
+           #icon > button {display: none;}
+        
+             /*헤드 슬라이더*/
+             #slider {width: 99%; height: auto;  margin:10px auto;  border-radius: 50px; padding: 15px;  background-image:url("../img/img_back.svg"); background-color: #aa0a1a;}
+
+             #slider > h2 {text-align: center; font-size: 30px; color: #ffffff; line-height: 1.3; letter-spacing: 3px; padding: 35px 0 0 0px; font-family: 'Bevan', cursive; text-shadow: 7px 5px 6px #5e0606;}
+        
+             #slider > p {margin: 23px auto; text-align: center; font-size: 15px; color: #fff; font-weight: bold; line-height: 23px; left: 0; width:90%;}
+        
+            /*첫번째 섹션*/
+            #guide {width:100%; height: auto; margin:50px auto; display: flex; flex-wrap: wrap; justify-content: center; }
+            #guide >h2 {width:100%; text-align: center; font-size: 22px; font-weight: 900; font-family: 'Convergence', sans-serif; letter-spacing: 3px;}
+            #guide >h1 {width:100%; text-align: center; font-size: 40px; padding:5px 0 0 0px; margin:0 0 40px 0px; color: #d71d30; font-family: 'Tilt Warp', cursive;}  
+            #guide >.box {width:30%; height: auto;  margin:20px 0 50px 0;}
+            #guide >.box > img {width:109px; height: 100px; margin:0 auto; display: block; }
+            #guide >.box > h3 {font-size: 19px; color:#252525; text-align: center; margin: 16px 0 10px 0px; font-family: 'Convergence', sans-serif; font-weight:bold; padding:0 40px; letter-spacing: -1; line-height: 1.2;}
+            #guide >.box > p {font-size: 13px; color:#252525; text-align: center; line-height: 1.3; padding:0 20px;}
+                
+                
+        
+                 /*커리어*/
+                 #career {width:97%; height:auto; margin: 0 auto; border-radius: 40px; padding:80px 0px; display: flex; flex-direction: column; align-items: center; background: linear-gradient(180deg,hsl(46, 95%, 58%) 0,#ff8c00 100%)}
+         #career >img {width:70%; height: auto; border-radius: 60px; z-index: 10; }
+         #career> .detail {width: 70%; height: auto; background-color: #ffffff; border-radius: 60px; margin: -45px 0 0 0; padding: 90px 30px 50px; box-shadow: 12px 14px 24px #925e1f;  display: flex; flex-direction: column; flex-wrap: wrap; align-items: center;}
+         #career> .detail > h1 {font-size: 22px; color:#252525;  line-height: 1; letter-spacing: 2px; text-align: center; padding:0 0 5px 0px; font-weight: bold; font-family: 'Convergence', sans-serif;}
+         #career> .detail > h2 {font-size: 35px; color:#d71d30;; font-weight: 900; letter-spacing: 2px; text-align:center; font-family: 'Tilt Warp', cursive; }
+         #career> .detail > h3 {font-size: 12px; color:#252525; font-weight: 700; line-height: 1; letter-spacing: 1px; text-align: center; padding: 20px;}
+         #career> .detail > p {font-size: 15px; color:#252525; font-weight: 400; line-height: 1.3; text-align: center; margin: 0 0 40px 0px;}
+
+         #career > .detail > a >button {background-color: #d71d30; font-size: 14px; letter-spacing: 1px; padding: 18px 38px; border:none; border-radius: 30px; color:#fff; font-weight: 600; cursor: pointer; }
+         #career > .detail > a >button:hover{background-color: #911a22; transition: 0.3s;}
+            
+         /*팀 소개 top*/
+         #team_top {width:80%; height:auto; margin:20px auto; display: flex; flex-wrap: wrap; justify-content: center; align-content: center; }
+         #team_top >h1 {text-align: center;  width:100%; font-size: 30px; font-weight: bold; color: #252525; margin: 35px 0 10px 0px; font-family: 'Convergence', sans-serif;}
+         #team_top >h2 {text-align: center; color: #d71d30; width:100%; font-size: 40px; font-family: 'Convergence', sans-serif; font-weight: 900; margin: 0 0 30px 0px;}
+         #team_top >.box {width:120px; height: 300px;  background-color: #fff; margin:2%; border-radius: 20px; overflow: hidden; box-shadow: 0 11.4634px 18.8328px rgba(55,54,55,.08);}
+          #team_top >.box >img {width:100%; height: auto;}
+          #team_top >.box >img:hover{opacity: 0.8; transition: 0.3s; }
+         #team_top >.box >h4 {font-size: 12px; color:#252525; text-align: center; letter-spacing: 1px; font-weight: 700; padding: 20px 10px 10px;}
+         #team_top >.box >p {font-size: 12px; color:#6e6f71; text-align: center; line-height: 18px; font-weight: 400;}
+         #team_top >.box2 {margin:2%; width:120px; height: 300px;  background-color: #fff; border-radius: 20px; overflow: hidden; box-shadow: 0 11.4634px 18.8328px rgba(55,54,55,.08);}
+         #team_top >.box2 >img {width:100%; height: auto; }
+         #team_top >.box2 >img:hover{opacity: 0.8; transition: 0.3s;}
+         #team_top >.box2 >h4 {font-size: 12px; color:#252525; text-align: center; letter-spacing: 1px; font-weight: 700; padding: 20px 10px 10px;}
+         #team_top >.box2 >p {font-size: 12px; color:#6e6f71; text-align: center; line-height: 18px; font-weight: 400; padding: 0 10px;}
+        
+         /*팀 소개*/
+         #team_bottom {width:100%; height:auto; margin:60px auto; display: flex; flex-wrap: wrap; justify-content: center; align-content: center;}
+         #team_bottom >.box {width:169px; height: 253px; margin: 1.5%; }
+         #team_bottom >.box >img {width:160px; height: 160px; border-radius: 80px; margin: 0 0 0 5px;}
+         #team_bottom >.box >img:hover{opacity: 0.8; transition: 0.3s;}
+         #team_bottom >.box >h4 {font-size: 12px; color:#252525; text-align: center; letter-spacing: 1px; font-weight: 700; padding: 16px 0 4px 0px;}
+         #team_bottom >.box >p {font-size: 12px; color:#6e6f71; text-align: center; line-height: 18px; font-weight: 400;}
+
+         /*팀 프로필*/
+         #profile {width:100%; height: auto;  margin:10px auto; display: flex; flex-wrap: wrap; justify-content: center; align-content: center; padding:0 0 60px 0px;}
+         #profile >h2 {text-align: center; color: #d71d30; width:100%; font-size: 35px; font-family: 'Convergence', sans-serif; font-weight: 900; padding:30px;}
+         #profile >.box {width:130px; height: auto; padding:10px 0 20px 0px; }
+         #profile >.box >img {width:100px; height: 100px; border-radius: 50px; margin:0 0 0 15px;}
+         #profile >.box > h4 {font-size: 12px; color: #252525; text-align: center; font-weight: 600; margin: 20px 0 4px 0px; line-height: 1.3;}
+         #profile >.box >p {display: none;}
+                
+                /*뉴스*/
+         #news {width:97%; height:auto; margin:0 auto; background:linear-gradient(180deg,#f47622 0,#ba3227 100%); border-radius: 40px; padding:90px 0px; display: flex; flex-direction: column;}
+
+         #news > #rightbox {width: 100%; display: flex; flex-direction: column; align-items: center; margin:0 0 30px 0; }
+         #news > #rightbox > img {width: 65%; height: auto; border-radius: 60px; z-index: 10; }
+         #news > #rightbox >.detail {width: 65%; height: auto; background-color: #ffffff; border-radius: 60px; margin: -45px 0 0 0px; padding: 70px 0 50px 0px; box-shadow: 12px 14px 24px #b6473f; display: flex; flex-direction: column; align-items: center;}
+         #news > #rightbox> .detail > h1 {font-size: 22px; color:#252525; font-weight: 900; font-family: 'Convergence', sans-serif; line-height: 2; letter-spacing: 2px; text-align: center; }
+         #news > #rightbox> .detail > h2 {font-size: 30px; color:#d71d30; font-weight: 900; font-family: 'Tilt Warp', cursive; line-height: 1; letter-spacing: 2px; text-align: center; width:90%; }
+         #news > #rightbox> .detail > p {font-size: 15px; color:#252525; font-weight: 400; line-height: 1.3; text-align: center; padding: 25px 18px; width:80%; }
+         #news > #rightbox> .detail > a >button {background-color: #d71d30; font-size: 16px; letter-spacing: 1px; padding: 20px 50px; border:none; border-radius: 30px; color:#fff; font-weight: 600;  cursor: pointer;}
+         #news > #rightbox> .detail > a >button:hover{background-color: #911a22; transition: 0.3s;}
+
+         #news > #leftbox {width: 100%;  display: flex; flex-direction: column; align-items: center;  margin:30px 0 0 0;}
+         #news > #leftbox > img {width: 65%; height: auto; z-index: 10; border-radius: 60px; margin: 0 0 -45px 0px;}
+         #news > #leftbox >.detail {width: 65%; height: auto; background-color: #ffffff; border-radius: 60px;  padding: 80px 0 50px 0px; box-shadow: 22px 14px 24px #923731; display: flex; flex-direction: column; align-items: center;}
+         #news > #leftbox > .detail > h1 {font-size: 22px; color:#252525; font-weight: 900; font-family: 'Convergence', sans-serif; line-height: 1; letter-spacing: 2px; padding:0 0 10px 8px;}
+         #news > #leftbox > .detail > h2 {font-size: 30px; color:#d71d30;; font-weight: 900; font-family: 'Tilt Warp', cursive; line-height: 1; letter-spacing: 2px; margin:0 0 0 8px;}
+         #news > #leftbox > .detail > p {font-size: 15px; color:#252525; font-weight: 400; line-height: 1.3; text-align: center; padding: 25px 18px; width:80%;}
+         #news > #leftbox > .detail > a >button {background-color: #d71d30; font-size: 16px; letter-spacing: 1px; padding: 20px 50px; border:none; border-radius: 30px; color:#fff; font-weight: 600;  cursor: pointer;}
+         #news > #leftbox> .detail > a >button:hover{background-color: #911a22; transition: 0.3s;}
+        
+                  /*매체*/
+         #tvspots {width:100%; height: auto; margin:80px auto; padding: 10px; display: flex; flex-wrap: wrap; justify-content: center;}
+         #tvspots > #head {width:93%; height: 70px; margin: 0 auto;  font-size: 37px; font-weight: bold; color: #911a22; border-bottom: 2px solid #afafaf; font-family: 'Tilt Warp', cursive; letter-spacing: 3px; }
+         #tvspots > .box {width:30%; height: auto; background-color: #fff; margin:40px auto; border-radius: 60px; box-shadow: 5px 5px 24px #c5c5c5; padding:20px 0;}
+
+         #tvspots > .box > a > .videobox {width:85%; height: 150px; margin:0 auto; border-radius: 30px;}
+         #tvspots > .box > a > .videobox > img {width:100%; height: 100%; border-radius: 30px; cursor: pointer;}
+         #tvspots > .box > a > .videobox > .play {width:100%; height: 150px; border-radius: 30px; position: relative; bottom: 151px; padding: 40px; background-color: #00000042; }
+         #tvspots > .box > a > .videobox > .play:hover {opacity: 1; background:none; transition: 0.2s; }
+        
+
+         #tvspots > .box > h2 {font-size: 10px; width:100%; font-weight: bold; margin:15px 0 0 30px; }
+         #tvspots > .box > p {font-size: 20px; font-family: 'Tilt Warp', cursive; margin:10px 0 40px 30px; width:80%;}
+         #tvspots > a {text-decoration: none;}
+         #tvspots > a > button { width:250px; height: 66px; border-radius: 50px; background-color: #fff; border: 2px solid #d71d30; font-size: 15px; font-weight: bold; color: #d71d30; text-decoration: none; cursor: pointer; letter-spacing: 1.3px; margin:20px 0 0 0;} 
+         #tvspots > a > button:hover {border: 2px solid #911a22; color: #911a22;}
+        
+                 /*브랜드 스토리*/
+                 #brandstory {width:95%; height:auto; margin:0 auto; display:flex }
+                 #brandstory > .box {width: 48%; height: auto; margin:0 auto;  display: flex; flex-direction: column; align-items: center;}
+                 #brandstory > .box > .photo {width:97%; height: auto; border-radius: 60px; margin: 60px auto; overflow: hidden; }
+                 #brandstory > .box > .photo > img {width:100%; height: 100%;  transform: scale(1); transition: 0.8s; margin:0 auto;}
+                  #brandstory > .box > .photo > img:hover{transform: scale(1.1); transition: 1s; opacity: 0.6;}
+                  #brandstory > .box > h2 {width:100%; text-align: center; font-size: 35px; color:#d71d30;; font-weight: 900; font-family: 'Convergence', sans-serif; margin: -30px 0 20px 0px; }
+                  #brandstory > .box > p {width:95%; height: 30%; font-size: 15px; color:#252525; font-weight: 400; line-height: 1.3; text-align: center; }
+                  #brandstory > .box > a > button {font-size: 16px; font-family: 'Convergence', sans-serif; padding:20px 30px; color:#d71d30; border: 2px solid #d71d30; border-radius: 30px; cursor: pointer; margin:0 0 90px 0px; background-color: #fff;}
+                  #brandstory > .box > a > button:hover{border: 2px solid #86242e; color:#86242e}
+                 
+                  /*하단*/
+                 footer {width:100%; height:auto; margin:0 auto; background-color:#252525; display: flex;}
+                 #footerbox {width:100%; height:100%; margin:0 auto; display: flex;}
+        
+                 #footerbox > #container {width:30%; height: 100%; text-align: center; padding:10px; background-color:#252525;}
+                 #footerlogo {width:150px; height: 87px; margin: 30px auto; }
+                 #footerlogo > a >img {width:100%; height: 100%; }
+
+                 #snsicon >a >.fa-brands {font-size: 20px; text-decoration: none; color: #fff; margin:2%;}
+                 #snsicon >a >.fa-brands:hover{color: #f39d2d;}
+
+                 #appstore > a > img {height: 30px; margin:20px 0px; }
+                 #appstore > a > img:hover{opacity: 0.7;}
+
+                 #footerbox > nav {width:70%; display: flex; justify-content: flex-end;}
+                 #footerbox > nav > ul {padding:30px; width:30%; }
+                 #footerbox > nav > ul > h2 {color: #fff; font-size: 20px; font-weight: bold; letter-spacing: 2px; margin:0 0 13px 0px; font-family: 'Convergence', sans-serif;}
+                 #footerbox > nav > ul > li > a {text-decoration: none; color: #fff; font-size: 12px;  line-height: 2.2; font-family: 'Convergence', sans-serif;}
+                 #footerbox > nav > ul > li > a:hover{border-bottom: 2px solid #fff;}
+                }
